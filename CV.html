@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>CV</title>
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+			rel="stylesheet"
+		/>
+		<link
+			rel="stylesheet"
+			href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css"
+		/>
+		<style>
+			*,
+			*::before,
+			*::after {
+				box-sizing: border-box;
+			}
+			html,
+			body {
+				margin: 0;
+				padding: 0;
+			}
+			body {
+				font-family: "Lato";
+				background-color: #efefef;
+				font-size: 0.84rem;
+				color: #333;
+			}
+			.container {
+				height: 14in;
+				width: 8.5in;
+				overflow: hidden;
+				background-color: #fff;
+				margin: 0 auto;
+				position: relative;
+				display: grid;
+				grid-template-columns: auto 1fr;
+			}
+			.left-panel {
+				padding: 25px;
+				padding-top: 30px;
+				width: 280px;
+				background-color: #f9f6f2;
+			}
+			.left-panel ul {
+				list-style-type: none;
+				margin: 0;
+				padding: 0;
+			}
+			.left-panel ul i {
+				width: 30px;
+			}
+			.left-panel ul li {
+				line-height: 1.8;
+			}
+			.right-panel ul {
+				margin: 0;
+			}
+			.title {
+				font-size: 1.4rem;
+				width: fit-content;
+				border-bottom: 1px solid #ccc;
+				padding: 10px 0;
+				margin-bottom: 10px;
+				margin-top: 25px;
+			}
+			.right-panel {
+				width: 100%;
+				padding: 25px;
+				padding-top: 30px;
+			}
+			.profil {
+				width: 200px;
+				height: 200px;
+				display: block;
+				position: static;
+				margin-top: 50px;
+				overflow: hidden;
+				border-radius: 50%;
+				margin: auto;
+				padding: 4px;
+				box-shadow: 0 0 5px #555;
+				background-color: #fefefe;
+			}
+			.thumbnail {
+				height: 100%;
+				width: 100%;
+				border-radius: 50%;
+				overflow: hidden;
+			}
+			img {
+				width: 100%;
+			}
+			.bio {
+				background-color: #efefef;
+				padding: 15px;
+				text-align: center;
+			}
+			.name {
+				font-size: 2.5rem;
+				font-weight: 600;
+			}
+			.status {
+				font-size: 1.4rem;
+				margin-top: -3px;
+				color: #555;
+			}
+			table {
+				width: 100%;
+			}
+			table td {
+				padding: 3px 0;
+			}
+			.circle {
+				width: 15px;
+				height: 15px;
+				border: 1px solid #333;
+				display: inline-block;
+				margin: 0 2px;
+				border-radius: 50%;
+			}
+			.black {
+				background-color: #333;
+			}
+			.clearfix {
+				display: table;
+				clear: both;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="container">
+			<div class="left-panel">
+				<div class="profil">
+					<div class="thumbnail">
+						<img src="foto.jpg" alt="Foto" />
+					</div>
+				</div>
+				<div class="title">CONTACT</div>
+				<ul>
+					<li><i class="la la-lg la-map-marker"></i>Makassar, Indonesia</li>
+					<li>
+						<i class="la la-lg la-calendar"></i>30<sup>th</sup> April 1998
+					</li>
+					<li><i class="la la-lg la-phone"></i>+62-853-426-823-96</li>
+					<li><i class="la la-lg la-envelope"></i>arsonmarianus@gmail.com</li>
+					<li>
+						<i class="la la-lg la-linkedin"></i>linkedin.com/in/arsonmarianus/
+						<i class="la la-lg la-github"></i>github.com/m-arson/
+					</li>
+				</ul>
+				<div class="title">SKILLS</div>
+				<table>
+					<tr>
+						<td>HTML5</td>
+						<td>
+							<i class="circle black"></i>
+							<i class="circle black"></i>
+							<i class="circle black"></i>
+							<i class="circle black"></i>
+							<i class="circle black"></i>
+						</td>
+					</tr>
+					<tr>
+						<td>CSS3</td>
+						<td>
+							<i class="circle black"></i>
+							<i class="circle black"></i>
+							<i class="circle black"></i>
+							<i class="circle black"></i>
+							<i class="circle black"></i>
+						</td>
+					</tr>
+					<tr>
+						<td>Javascript</td>
+						<td>
+							<i class="circle black"></i>
+							<i class="circle black"></i>
+							<i class="circle black"></i>
+							<i class="circle black"></i>
+							<i class="circle"></i>
+						</td>
+					</tr>
+					<tr>
+						<td>PHP</td>
+						<td>
+							<i class="circle black"></i>
+							<i class="circle black"></i>
+							<i class="circle black"></i>
+							<i class="circle black"></i>
+							<i class="circle"></i>
+						</td>
+					</tr>
+					<tr>
+						<td>SQL</td>
+						<td>
+							<i class="circle black"></i>
+							<i class="circle black"></i>
+							<i class="circle black"></i>
+							<i class="circle black"></i>
+							<i class="circle"></i>
+						</td>
+					</tr>
+					<tr>
+						<td>Python</td>
+						<td>
+							<i class="circle black"></i>
+							<i class="circle black"></i>
+							<i class="circle black"></i>
+							<i class="circle black"></i>
+							<i class="circle"></i>
+						</td>
+					</tr>
+					<tr>
+						<td>C</td>
+						<td>
+							<i class="circle black"></i>
+							<i class="circle black"></i>
+							<i class="circle black"></i>
+							<i class="circle"></i>
+							<i class="circle"></i>
+						</td>
+					</tr>
+					<tr>
+						<td>Java</td>
+						<td>
+							<i class="circle black"></i>
+							<i class="circle black"></i>
+							<i class="circle black"></i>
+							<i class="circle"></i>
+							<i class="circle"></i>
+						</td>
+					</tr>
+					<tr>
+						<td>Arduino</td>
+						<td>
+							<i class="circle black"></i>
+							<i class="circle black"></i>
+							<i class="circle black"></i>
+							<i class="circle black"></i>
+							<i class="circle"></i>
+						</td>
+					</tr>
+					<tr>
+						<td>Raspberry Pi</td>
+						<td>
+							<i class="circle black"></i>
+							<i class="circle black"></i>
+							<i class="circle black"></i>
+							<i class="circle black"></i>
+							<i class="circle"></i>
+						</td>
+					</tr>
+					<tr>
+						<td>PLC</td>
+						<td>
+							<i class="circle black"></i>
+							<i class="circle black"></i>
+							<i class="circle black"></i>
+							<i class="circle"></i>
+							<i class="circle"></i>
+						</td>
+					</tr>
+					<tr>
+						<td>PCB Design</td>
+						<td>
+							<i class="circle black"></i>
+							<i class="circle black"></i>
+							<i class="circle black"></i>
+							<i class="circle black"></i>
+							<i class="circle"></i>
+						</td>
+					</tr>
+				</table>
+				<div class="title">LANGUAGES</div>
+				<ul>
+					<li>
+						Indonesia <br />
+						&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+						<em style="font-size: 0.8rem">Mother Tongue</em>
+					</li>
+					<li>
+						English <br />
+						&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+						<em style="font-size: 0.8rem">Good</em>
+						&nbsp;
+						<em style="font-size: 0.8rem">(TOEFL : On Test Preparation)</em>
+					</li>
+				</ul>
+				<div class="title">HOBBIES</div>
+				<ul>
+					<li>Swimming</li>
+					<li>Cycling</li>
+					<li>Fishing</li>
+					<li>Jogging</li>
+					<li>Listening to music</li>
+				</ul>
+			</div>
+			<div class="right-panel">
+				<div class="bio">
+					<div class="name">Arson Marianus</div>
+					<div class="status">Electrical Engineer</div>
+				</div>
+				<div class="title">SUMMARY</div>
+				<p>
+					Fresh Graduate interested in Web Programming, Electronics, and
+					Internet of Things (IoT). Currently working as a freelancer for IoT
+					device creation, and Website creation such as Information System,
+					Company Profile, and IoT Device Monitoring.
+				</p>
+				<div class="title">EXPERIENCE</div>
+				<div>
+					<div
+						style="
+							float: left;
+							font-weight: 600;
+							font-size: 1.1rem;
+							margin-bottom: 5px;
+						"
+					>
+						IoT & Web Developer
+					</div>
+					<div style="float: right; font-size: 0.8rem; font-weight: 600">
+						Mar 2021 &mdash; Mar 2022
+					</div>
+				</div>
+				<div class="clearfix"></div>
+				<div style="color: #555">PT. Tenstronic Teknologi Indonesia</div>
+				<p style="margin-top: 5px; padding-left: 15px">
+					Responsible for designing IoT devices, and determining the control
+					medium whether it is a web page or a mobile application.
+				</p>
+				<br />
+				<div>
+					<div
+						style="
+							float: left;
+							font-weight: 600;
+							font-size: 1.1rem;
+							margin-bottom: 5px;
+						"
+					>
+						Maintenance Intern
+					</div>
+					<div style="float: right; font-size: 0.8rem; font-weight: 600">
+						Jan 2020 &mdash; Feb 2020
+					</div>
+				</div>
+				<div class="clearfix"></div>
+				<div style="color: #555">PT. Eastern Pearl Flour Mills</div>
+				<p style="margin-top: 5px; padding-left: 15px">
+					Responsible for installing, checking, and maintaining the company's
+					electrical equipment, especially electric motors and wiring. Also
+					learn about PLC basics.
+				</p>
+
+				<div class="title">PROJECTS</div>
+				<div style="font-weight: 600; font-size: 1.1rem; margin-bottom: 5px">
+					Website
+				</div>
+				<ul>
+					<li>
+						<b>Traffic and Road Transport Forum Wakatobi Regency</b>
+						<p style="margin-top: 3px">
+							Website for community reporting on road and traffic conditions in
+							Wakatobi Regency.
+						</p>
+					</li>
+					<li>
+						<b>
+							National Seminar on Electronic Engineering and Information
+							Technology 2019
+						</b>
+						<p style="margin-top: 3px">
+							Website to display event agendas, and collect paper files for
+							event registrants.
+						</p>
+					</li>
+					<li>
+						<b>Smart Home Monitoring</b>
+						<p style="margin-top: 3px">
+							Websites that are connected to IoT devices, which can control
+							remote devices as long as they are connected to the internet, and
+							monitor home power usage.
+						</p>
+					</li>
+					<li>
+						<b>Infusion Fluid Monitoring</b>
+						<p style="margin-top: 3px">
+							Website to report the amount of patient's remaining infusion
+							fluid, and send an alarm when the infusion fluid is close to the
+							threshold category of less.
+						</p>
+					</li>
+				</ul>
+				<div style="font-weight: 600; font-size: 1.1rem; margin-bottom: 5px">
+					Hardware & IoT Device
+				</div>
+				<ul>
+					<li>
+						<b>Smart Plug & Smart Fitting</b>
+						<p style="margin-top: 3px">
+							IoT devices enabling Plug and Fittings are controlled locally or
+							via the internet, and report power usage regularly.
+						</p>
+					</li>
+					<li>
+						<b>De-Tek-Tor</b>
+						<p style="margin-top: 3px">
+							A collaboration project with PLN UP3 Makassar, which is a
+							measuring instrument that can detect 3 types of modem cables and
+							KWh Meters used at PLN Makassar.
+						</p>
+					</li>
+					<li>
+						<b>Antenna Direction Controller</b>
+						<p style="margin-top: 3px">
+							Cooperation with PLN Makassar, in the form of a tool that can
+							change the direction of the yagi antenna that is controlled
+							remotely.
+						</p>
+					</li>
+				</ul>
+				<div class="title">EDUCATION</div>
+				<div>
+					<div
+						style="
+							float: left;
+							font-weight: 600;
+							font-size: 1.1rem;
+							margin-bottom: 5px;
+						"
+					>
+						Bachelor of Electrical Engineer
+					</div>
+					<div style="float: right; font-size: 0.8rem; font-weight: 600">
+						Aug 2017 &mdash; Jan 2022
+					</div>
+				</div>
+				<div class="clearfix"></div>
+				<div style="color: #555">Hasanuddin University (GPA: 3.34)</div>
+			</div>
+		</div>
+	</body>
+</html>
